@@ -1,0 +1,13 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+	<f:section title="VisionProject">
+    <f:entry title="Issue ID Regex" help="/plugin/visionproject/regex.html">
+	    <f:textbox name="visionproject.regex" value="${descriptor.regex}"
+        checkUrl="'${rootURL}/jobProperty/VisionProjectProperty/regexCheck?value='+escape(this.value)" />
+	</f:entry>
+    <f:entry title="VisionProjects base URL" help="/plugin/visionproject/baseurl.html">
+	    <f:textbox name="visionproject.base" value="${descriptor.baseUrl}"
+        checkUrl="'${rootURL}/jobProperty/VisionProjectProperty/urlCheck?value='+escape(this.value)" />
+	</f:entry>
+	
+  </f:section>
+</j:jelly>

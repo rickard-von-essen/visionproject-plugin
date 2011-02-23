@@ -1,4 +1,6 @@
 This is a Jenkins plugin to create links from the checkin comments to VisionProject. 
+VisionProject is registered trademark of Visionera AB, Sweden. This plugin was based on the 
+bugzilla-plugin.
 
 See
 http://www.jenkins-ci.org/
