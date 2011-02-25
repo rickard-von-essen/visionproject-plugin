@@ -3,8 +3,8 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>1.399-SNAPSHOT</version>
-    <relativePath>../pom.xml</relativePath>
+    <version>1.400-SNAPSHOT</version>
+    <relativePath>../jenkins/plugins/pom.xml</relativePath>
   </parent>
 
   <artifactId>visionproject</artifactId>
@@ -19,4 +19,6 @@
       <email>rickard.von.essen@gmail.com</email>
     </developer>
   </developers>
+  <dependencies>
+  </dependencies>
 </project>

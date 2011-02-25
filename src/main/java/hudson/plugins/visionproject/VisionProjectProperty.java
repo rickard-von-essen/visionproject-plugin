@@ -62,11 +62,12 @@ public class VisionProjectProperty extends JobProperty<AbstractProject<?,?>> {
         }
 
         public String getBaseUrl() {
-            return "http://visionproject";
+        	if (baseurl == null) return "http://visionproject";
+        	return baseurl.toString();
         }
         
         public String getRegex() {
-        	if(regex == null) return "\\b[0-9.]*[0-9]\\b";
+        	if(regex == null) return "\\[(\\D+-\\d+)\\]";
         	return regex;
         }
                 
