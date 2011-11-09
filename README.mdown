@@ -1,0 +1,22 @@
+visionproject-plugin ![Project status](http://stillmaintained.com/rickard-von-essen/visionproject-plugin.png)
+========
+This is a Jenkins plugin to create links from the checkin comments to VisionProject. 
+VisionProject is registered trademark of Visionera AB, Sweden. This plugin was based on the Jenkins
+bugzilla-plugin.
+
+See
+
+* [Jenkins CI](http://www.jenkins-ci.org/)
+* [VisionProject](http://www.visionproject.se/)
+
+The source is keept on GitHub.
+
+* [github](https://github.com/rickard-von-essen/visionproject-plugin)
+
+License
+-------
+This code is released under the MIT License see LICENSE.txt for more information.
+
+Contact
+-------
+[Rickard von Essen](mailto:rickard.von.essen@gmail.com)
